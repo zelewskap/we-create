@@ -1,0 +1,204 @@
+header {
+	background-image: linear-gradient(to bottom left,
+	 #9225F0, #FF6B83);
+	position: relative;
+	background-size: cover;
+	text-align: center;
+	height: 445px;
+	margin-bottom: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #4d0099;
+}
+
+.ideas {
+	background-image: url("../img/fullbg.jpg");
+	position: relative;
+	background-size: cover;
+	text-align: center;
+	height: 400px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  font-size: 24px;
+  color: #5B267F;
+  margin: 24px 12.5px 24px 12.5px;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+header h1 {
+	color: white;
+	font-size: 116px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	margin: 0;
+}
+
+h1, h2, .podtytul, nav {
+	font-family: 'Roboto', sans-serif;
+}
+
+.contact, footer {
+	background-image: linear-gradient(to right,
+	  #FF7EC4, #AD3EDF);
+}
+
+.podtytul {
+	margin-top: 10px;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 21px;
+}
+
+h2 {
+	letter-spacing: 3px;
+	font-size: 27px;
+}
+
+#crazy {
+	color: white;
+	font-size: 73px;
+	letter-spacing: 2px;
+}
+
+img {
+	width: 409px;
+}
+
+.projects, .mission {
+	margin-bottom: 50px;
+}
+
+#link {
+	padding: 14px 25px;
+	background-color: white;
+	border: 2px solid #9225F0;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+
+input {
+	border: none;
+  	border-bottom: 2px solid #4d0099;
+  	width: 100%;
+  	box-sizing: border-box;
+  	background-color: transparent;
+  	margin: 7px;
+}
+
+textarea {
+	background-color: transparent;
+	border: 2px solid #4d0099;
+	width: 100%;
+	margin: 7px;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+#hello {
+	font-size: 63px;
+}
+
+form {
+	margin-top: 50px;
+}
+
+header::after {
+	content: url("../img/wave-top2.svg"); 
+	position: absolute; 
+	width: 500px; 
+	z-index: 1;
+	bottom: 40px; 
+	right: 0; 
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.projects::before {
+	content: url("../img/wave-top.svg");
+	position: absolute;
+	width: 700px;
+	z-index: 1;
+	bottom: 220px;
+	right: -60px;
+}
+
+.ideas::before {
+	content: url("../img/wave-bottom.svg");
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: -40px;
+	width: 600px;
+}
+
+.projects::after {
+	content: "1.";
+	position: absolute;
+	z-index: -1;
+	bottom: -60px;
+	font-size: 247px;
+	color: #E479D7;
+	left: 150px;
+	font-weight: bold;
+
+}
+
+.team::before {
+	content: "2.";
+	position: absolute;
+	z-index: -1;
+	bottom: -400px;
+	font-size: 247px;
+	color: #FB7F97;
+	right: 600px;
+	font-weight: bold;
+
+}
+
+ .mission::before {
+	content: "3.";
+	position: absolute;
+	z-index: -1;
+	bottom: -1200px;
+	font-size: 247px;
+	color: #E421B5;
+	left: 150px;
+	font-weight: bold;
+
+}
